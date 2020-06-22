@@ -2,7 +2,7 @@
 #include<atlstr.h>//CString
 #include<string>//string
 using namespace std;
-#if 1
+#if 0
 int main(int argc, char ** argv)
 {
 
