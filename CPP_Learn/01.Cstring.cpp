@@ -36,6 +36,13 @@ int main(int argc, char ** argv)
 	std::cout << "CString转换后 char[]长度  " << sizeof(ac_s) << std::endl;
 	std::cout << "CString转换后 char[]长度  " << strlen(ac_s) << std::endl;
 	
+
+
+	for (int i = 0; i < 10000; i++)
+	{
+		str1 += "CString转换后 ";
+	}
+	std::cout << "   :" << str1 << std::endl;
 	
 	std::cin.get();
 	return 0;

@@ -45,7 +45,7 @@ void test_function(Building bud)
 	std::cout << "访问bud的【private】属性 " << bud.m_BeddingRoom << std::endl;  
 
 }
-#if 1
+#if 0
 int main(int argc, char ** argv)
 {
 	//定义类的变量
